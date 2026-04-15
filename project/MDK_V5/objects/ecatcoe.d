@@ -1,0 +1,9 @@
+.\objects\ecatcoe.o: ..\ecat\ecatcoe.c
+.\objects\ecatcoe.o: ..\ecat\ecat_def.h
+.\objects\ecatcoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ecatcoe.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ecatcoe.o: ..\ecat\sdoserv.h
+.\objects\ecatcoe.o: ..\ecat\ecatcoe.h
+.\objects\ecatcoe.o: ..\ecat\mailbox.h
+.\objects\ecatcoe.o: ..\ecat\ecatcoe.h
+.\objects\ecatcoe.o: ..\ecat\mailbox.h

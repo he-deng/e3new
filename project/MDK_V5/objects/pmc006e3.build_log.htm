@@ -1,0 +1,332 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: h HD, h, LIC=WHYH9-4P6WD-Z9TG9-4SY6L-2VWY5-8A1T5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+F:\项目\pmc006E3\PMC006E3程序新\project\MDK_V5\pmc006e3.uvprojx
+Project File Date:  04/15/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'pmc006e3'
+compiling at32f435_437_wk_config.c...
+compiling wk_tmr.c...
+compiling wk_spi.c...
+compiling wk_system.c...
+compiling wk_gpio.c...
+compiling wk_exint.c...
+compiling at32f435_437_int.c...
+compiling at32_hw.c...
+..\src\at32_hw.c(61): warning:  #223-D: function "AddressingEsc" declared implicitly
+          AddressingEsc( Address, ESC_WR );
+..\src\at32_hw.c(87): warning:  #223-D: function "AddressingEsc" declared implicitly
+           AddressingEsc( Address, ESC_RD );
+..\src\at32_hw.c(112): warning:  #223-D: function "AddressingEsc" declared implicitly
+       AddressingEsc( Address, ESC_WR );
+..\src\at32_hw.c(131): warning:  #223-D: function "AddressingEsc" declared implicitly
+       AddressingEsc( Address, ESC_RD );
+..\src\at32_hw.c(162): warning:  #223-D: function "GetInterruptRegister" declared implicitly
+      GetInterruptRegister();
+..\src\at32_hw.c(168): warning:  #223-D: function "ISR_GetInterruptRegister" declared implicitly
+      ISR_GetInterruptRegister();
+..\src\at32_hw.c(190): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\at32_hw.c: 7 warnings, 0 errors
+compiling at32f435_437_gpio.c...
+compiling at32f435_437_crm.c...
+compiling at32f435_437_usart.c...
+compiling at32f435_437_i2c.c...
+compiling at32f435_437_ertc.c...
+compiling at32f435_437_tmr.c...
+compiling at32f435_437_pwc.c...
+compiling at32f435_437_adc.c...
+compiling at32f435_437_spi.c...
+compiling at32f435_437_dma.c...
+compiling at32f435_437_debug.c...
+compiling at32f435_437_edma.c...
+compiling at32f435_437_crc.c...
+compiling at32f435_437_flash.c...
+compiling at32f435_437_wwdt.c...
+compiling at32f435_437_exint.c...
+compiling at32f435_437_wdt.c...
+compiling at32f435_437_misc.c...
+compiling at32f435_437_scfg.c...
+compiling at32f435_437_acc.c...
+compiling at32f435_437_usb.c...
+compiling at32f435_437_can.c...
+compiling at32f435_437_dac.c...
+compiling at32f435_437_xmc.c...
+compiling at32f435_437_qspi.c...
+assembling startup_at32f435_437.s...
+compiling at32f435_437_sdio.c...
+compiling bootmode.c...
+compiling at32f435_437_emac.c...
+compiling at32f435_437_dvp.c...
+compiling ecatcoe.c...
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\ecatcoe.c: 1 warning, 0 errors
+compiling system_at32f435_437.c...
+compiling coeappl.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\coeappl.c: 2 warnings, 8 errors
+compiling cia402appl.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\cia402appl.h(1175): warning:  #68-D: integer conversion resulted in a change of sign
+  {2,1,-3},/*TOBJ60C2 Interpolation Time Period*/
+..\ecat\cia402appl.c(170): warning:  #550-D: variable "bObjectFound"  was set but never used
+              BOOL bObjectFound = TRUE;
+..\ecat\cia402appl.c(639): warning:  #1215-D: #warning directive: "Implement slowdown ramp"
+        #warning "Implement slowdown ramp"
+..\ecat\cia402appl.c(642): warning:  #111-D: statement is unreachable
+        break;
+..\ecat\cia402appl.c(647): warning:  #1215-D: #warning directive: "Implement quick stop ramp ramp"
+        #warning "Implement quick stop ramp ramp"
+..\ecat\cia402appl.c(650): warning:  #111-D: statement is unreachable
+        break;
+..\ecat\cia402appl.c(655): warning:  #1215-D: #warning directive: "Implement slowdown on current limit ramp"
+        #warning "Implement slowdown on current limit ramp"
+..\ecat\cia402appl.c(658): warning:  #111-D: statement is unreachable
+        break;
+..\ecat\cia402appl.c(663): warning:  #1215-D: #warning directive: "Implement slowdown on voltage limit ramp"
+        #warning "Implement slowdown on voltage limit ramp"
+..\ecat\cia402appl.c(666): warning:  #111-D: statement is unreachable
+        break;
+..\ecat\cia402appl.c(1463): warning:  #223-D: function "HW_Release" declared implicitly
+      HW_Release();
+..\ecat\cia402appl.c: 14 warnings, 8 errors
+compiling ecatappl.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\ecatappl.c(819): error:  #165: too few arguments in function call
+              ENABLE_ESC_INT();
+..\ecat\ecatappl.c: 3 warnings, 9 errors
+compiling ecatfoe.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\ecatfoe.c: 0 warnings, 8 errors
+compiling ecatslv.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\ecatslv.c(260): error:  #165: too few arguments in function call
+      ENABLE_ESC_INT();
+..\ecat\ecatslv.c(281): error:  #165: too few arguments in function call
+      ENABLE_ESC_INT();
+..\ecat\ecatslv.c(2310): error:  #165: too few arguments in function call
+      ENABLE_ESC_INT();
+..\ecat\ecatslv.c: 2 warnings, 11 errors
+compiling mailbox.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\mailbox.c: 1 warning, 8 errors
+compiling foeappl.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\foeappl.c: 1 warning, 8 errors
+compiling objdef.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\objdef.c(940): warning:  #767-D: conversion from pointer to smaller integer
+              if((((MEM_ADDR)pVarPtr) & 0x1) == 0x1)
+..\ecat\objdef.c(947): warning:  #767-D: conversion from pointer to smaller integer
+                  pVarPtr = (UINT16 MBXMEM *)(((MEM_ADDR)pVarPtr)& ~(MEM_ADDR)0x1);
+..\ecat\objdef.c: 4 warnings, 8 errors
+compiling sdoserv.c...
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(439): error:  #84: invalid combination of type specifiers
+  typedef int32_t  INT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(440): error:  #84: invalid combination of type specifiers
+  typedef int16_t  INT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(441): error:  #84: invalid combination of type specifiers
+  typedef int8_t   INT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(442): error:  #84: invalid combination of type specifiers
+  typedef uint32_t UINT32;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(443): error:  #84: invalid combination of type specifiers
+  typedef uint16_t UINT16;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(444): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  UINT8;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\..\libraries\cmsis\cm4\device_support\at32f435_437.h(479): error:  #40: expected an identifier
+  typedef enum {FALSE = 0, TRUE = !FALSE} confirm_state;
+..\ecat\sdoserv.h(647): warning:  #1295-D: Deprecated declaration SODS_ClearPendingResponse - give arg types
+  PROTO    void  SODS_ClearPendingResponse();
+..\ecat\sdoserv.c: 1 warning, 8 errors
+".\objects\pmc006e3.axf" - 76 Error(s), 36 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ArteryTek
+                
+                ArteryTek.AT32F435_437_DFP.2.2.4
+                ArteryTek AT32F4 Series Device Support,Drivers
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_pmc006e3
+  D:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>
