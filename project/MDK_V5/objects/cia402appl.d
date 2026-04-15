@@ -2,11 +2,6 @@
 .\objects\cia402appl.o: ..\ecat\ecat_def.h
 .\objects\cia402appl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\cia402appl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\cia402appl.o: ..\ecat\applInterface.h
-.\objects\cia402appl.o: ..\ecat\esc.h
-.\objects\cia402appl.o: ..\ecat\ecatslv.h
-.\objects\cia402appl.o: ..\ecat\esc.h
-.\objects\cia402appl.o: ..\inc\at32_hw.h
 .\objects\cia402appl.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
 .\objects\cia402appl.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
 .\objects\cia402appl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -46,6 +41,11 @@
 .\objects\cia402appl.o: ..\..\libraries\drivers\inc\at32f435_437_emac.h
 .\objects\cia402appl.o: ..\..\libraries\drivers\inc\at32f435_437_dvp.h
 .\objects\cia402appl.o: ..\..\libraries\drivers\inc\at32f435_437_usb.h
+.\objects\cia402appl.o: ..\ecat\applInterface.h
+.\objects\cia402appl.o: ..\ecat\esc.h
+.\objects\cia402appl.o: ..\ecat\ecatslv.h
+.\objects\cia402appl.o: ..\ecat\esc.h
+.\objects\cia402appl.o: ..\inc\at32_hw.h
 .\objects\cia402appl.o: ..\ecat\esc.h
 .\objects\cia402appl.o: ..\inc\at32f435_437_wk_config.h
 .\objects\cia402appl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

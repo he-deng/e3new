@@ -2,9 +2,6 @@
 .\objects\sdoserv.o: ..\ecat\ecat_def.h
 .\objects\sdoserv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\sdoserv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\sdoserv.o: ..\ecat\ecatslv.h
-.\objects\sdoserv.o: ..\ecat\esc.h
-.\objects\sdoserv.o: ..\inc\at32_hw.h
 .\objects\sdoserv.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
 .\objects\sdoserv.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
 .\objects\sdoserv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -44,6 +41,9 @@
 .\objects\sdoserv.o: ..\..\libraries\drivers\inc\at32f435_437_emac.h
 .\objects\sdoserv.o: ..\..\libraries\drivers\inc\at32f435_437_dvp.h
 .\objects\sdoserv.o: ..\..\libraries\drivers\inc\at32f435_437_usb.h
+.\objects\sdoserv.o: ..\ecat\ecatslv.h
+.\objects\sdoserv.o: ..\ecat\esc.h
+.\objects\sdoserv.o: ..\inc\at32_hw.h
 .\objects\sdoserv.o: ..\ecat\esc.h
 .\objects\sdoserv.o: ..\inc\at32f435_437_wk_config.h
 .\objects\sdoserv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

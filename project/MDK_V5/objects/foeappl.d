@@ -2,9 +2,6 @@
 .\objects\foeappl.o: ..\ecat\ecat_def.h
 .\objects\foeappl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\foeappl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\foeappl.o: ..\ecat\ecatslv.h
-.\objects\foeappl.o: ..\ecat\esc.h
-.\objects\foeappl.o: ..\inc\at32_hw.h
 .\objects\foeappl.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
 .\objects\foeappl.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
 .\objects\foeappl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -44,6 +41,9 @@
 .\objects\foeappl.o: ..\..\libraries\drivers\inc\at32f435_437_emac.h
 .\objects\foeappl.o: ..\..\libraries\drivers\inc\at32f435_437_dvp.h
 .\objects\foeappl.o: ..\..\libraries\drivers\inc\at32f435_437_usb.h
+.\objects\foeappl.o: ..\ecat\ecatslv.h
+.\objects\foeappl.o: ..\ecat\esc.h
+.\objects\foeappl.o: ..\inc\at32_hw.h
 .\objects\foeappl.o: ..\ecat\esc.h
 .\objects\foeappl.o: ..\inc\at32f435_437_wk_config.h
 .\objects\foeappl.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

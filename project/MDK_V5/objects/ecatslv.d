@@ -3,8 +3,6 @@
 .\objects\ecatslv.o: ..\ecat\ecat_def.h
 .\objects\ecatslv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\ecatslv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\ecatslv.o: ..\ecat\esc.h
-.\objects\ecatslv.o: ..\inc\at32_hw.h
 .\objects\ecatslv.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
 .\objects\ecatslv.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
 .\objects\ecatslv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -44,6 +42,8 @@
 .\objects\ecatslv.o: ..\..\libraries\drivers\inc\at32f435_437_emac.h
 .\objects\ecatslv.o: ..\..\libraries\drivers\inc\at32f435_437_dvp.h
 .\objects\ecatslv.o: ..\..\libraries\drivers\inc\at32f435_437_usb.h
+.\objects\ecatslv.o: ..\ecat\esc.h
+.\objects\ecatslv.o: ..\inc\at32_hw.h
 .\objects\ecatslv.o: ..\ecat\esc.h
 .\objects\ecatslv.o: ..\inc\at32f435_437_wk_config.h
 .\objects\ecatslv.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
