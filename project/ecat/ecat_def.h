@@ -412,40 +412,11 @@ ESC_EEPROM_ACCESS_SUPPORT: If this switch is set the slave stack provides functi
 ------	
 -----------------------------------------------------------------------------------------*/
 
-/** 
-FALSE: Will be used for variables from type BOOL */
-#ifndef FALSE
-#define FALSE                                     0
-#endif
-
-/** 
-TRUE: Will be used for variables from type BOOL  */
-#ifndef TRUE
-#define TRUE                                      1
-#endif
 
 /** 
 BOOL: Should be adapted to the boolean type of the microcontroller */
 #ifndef BOOL
 #define BOOL                                      unsigned char
-#endif
-
-/** 
-UINT8: Should be adapted to the unsigned8 type of the microcontroller  */
-#ifndef UINT8
-#define UINT8                                     unsigned char
-#endif
-
-/** 
-UINT16: Should be adapted to the unsigned16 type of the microcontroller  */
-#ifndef UINT16
-#define UINT16                                    unsigned short
-#endif
-
-/** 
-UINT32: Should be adapted to the unsigned32 type of the microcontroller  */
-#ifndef UINT32
-#define UINT32                                    unsigned long
 #endif
 
 /** 
@@ -458,24 +429,6 @@ UINT64: Should be adapted to the unsigned64 type of the microcontroller  */
 USHORT: Should be adapted to the unsigned16 type of the microcontroller */
 #ifndef USHORT
 #define USHORT                                    unsigned short
-#endif
-
-/** 
-INT8: Should be adapted to the integer8 type of the microcontroller */
-#ifndef INT8
-#define INT8                                      char
-#endif
-
-/** 
-INT16: Should be adapted to the integer16 type of the microcontroller  */
-#ifndef INT16
-#define INT16                                     short
-#endif
-
-/** 
-INT32: Should be adapted to the integer32 type of the microcontroller */
-#ifndef INT32
-#define INT32                                     long
 #endif
 
 /** 

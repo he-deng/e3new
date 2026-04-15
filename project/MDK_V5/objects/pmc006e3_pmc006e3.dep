@@ -41,7 +41,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\ecatappl.h)(0x69DF3224)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\inc\at32_hw.h)(0x69DF5085)
@@ -176,7 +176,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_scfg.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
-F (..\src\wk_spi.c)(0x69C4A869)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\wk_spi.o --omf_browse .\objects\wk_spi.crf --depend .\objects\wk_spi.d)
+F (..\src\wk_spi.c)(0x69DF7A39)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\wk_spi.o --omf_browse .\objects\wk_spi.crf --depend .\objects\wk_spi.d)
 I (..\inc\wk_spi.h)(0x69DF46AB)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
@@ -302,7 +302,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_scfg.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
-F (..\src\at32_hw.c)(0x69DF58C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\at32_hw.o --omf_browse .\objects\at32_hw.crf --depend .\objects\at32_hw.d)
+F (..\src\at32_hw.c)(0x69DF7A03)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\at32_hw.o --omf_browse .\objects\at32_hw.crf --depend .\objects\at32_hw.d)
 I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
 I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x69C20C86)
@@ -343,7 +343,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
@@ -1487,7 +1487,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 F (..\ecat\applInterface.h)(0x69DF3224)()
 F (..\ecat\bootmode.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\bootmode.o --omf_browse .\objects\bootmode.crf --depend .\objects\bootmode.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1533,8 +1533,8 @@ I (..\ecat\ecatfoe.h)(0x69DF3224)
 I (..\ecat\esc.h)(0x69DF3224)
 I (..\ecat\mailbox.h)(0x69DF3224)
 F (..\ecat\bootmode.h)(0x69DF3224)()
-F (..\ecat\cia402appl.c)(0x69DF518B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\cia402appl.o --omf_browse .\objects\cia402appl.crf --depend .\objects\cia402appl.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+F (..\ecat\cia402appl.c)(0x69DF58FA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\cia402appl.o --omf_browse .\objects\cia402appl.crf --depend .\objects\cia402appl.d)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1596,7 +1596,7 @@ I (..\ecat\coeappl.h)(0x69DF3224)
 I (..\ecat\cia402appl.h)(0x69DF3224)
 F (..\ecat\cia402appl.h)(0x69DF3224)()
 F (..\ecat\coeappl.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\coeappl.o --omf_browse .\objects\coeappl.crf --depend .\objects\coeappl.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1654,10 +1654,10 @@ I (..\ecat\ecatcoe.h)(0x69DF3224)
 I (..\ecat\mailbox.h)(0x69DF3224)
 I (..\ecat\cia402appl.h)(0x69DF3224)
 F (..\ecat\coeappl.h)(0x69DF3224)()
-F (..\ecat\ecat_def.h)(0x69DF4D9F)()
+F (..\ecat\ecat_def.h)(0x69DF5F97)()
 F (..\ecat\ecatappl.c)(0x69DF48A1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\ecatappl.o --omf_browse .\objects\ecatappl.crf --depend .\objects\ecatappl.d)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1718,7 +1718,7 @@ I (..\ecat\foeappl.h)(0x69DF3224)
 I (..\ecat\cia402appl.h)(0x69DF3224)
 F (..\ecat\ecatappl.h)(0x69DF3224)()
 F (..\ecat\ecatcoe.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\ecatcoe.o --omf_browse .\objects\ecatcoe.crf --depend .\objects\ecatcoe.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1764,7 +1764,7 @@ I (..\ecat\ecatcoe.h)(0x69DF3224)
 I (..\ecat\mailbox.h)(0x69DF3224)
 F (..\ecat\ecatcoe.h)(0x69DF3224)()
 F (..\ecat\ecatfoe.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\ecatfoe.o --omf_browse .\objects\ecatfoe.crf --depend .\objects\ecatfoe.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1821,7 +1821,7 @@ I (..\ecat\foeappl.h)(0x69DF3224)
 F (..\ecat\ecatfoe.h)(0x69DF3224)()
 F (..\ecat\ecatslv.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\ecatslv.o --omf_browse .\objects\ecatslv.crf --depend .\objects\ecatslv.d)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1881,7 +1881,7 @@ I (..\ecat\cia402appl.h)(0x69DF3224)
 F (..\ecat\ecatslv.h)(0x69DF4AE5)()
 F (..\ecat\esc.h)(0x69DF3224)()
 F (..\ecat\foeappl.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\foeappl.o --omf_browse .\objects\foeappl.crf --depend .\objects\foeappl.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -1943,7 +1943,7 @@ I (..\ecat\ecatcoe.h)(0x69DF3224)
 I (..\ecat\ecatappl.h)(0x69DF3224)
 F (..\ecat\foeappl.h)(0x69DF3224)()
 F (..\ecat\mailbox.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\mailbox.o --omf_browse .\objects\mailbox.crf --depend .\objects\mailbox.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -2000,7 +2000,7 @@ I (..\ecat\sdoserv.h)(0x69DF3224)
 I (..\ecat\ecatfoe.h)(0x69DF3224)
 F (..\ecat\mailbox.h)(0x69DF3224)()
 F (..\ecat\objdef.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\objdef.o --omf_browse .\objects\objdef.crf --depend .\objects\objdef.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
@@ -2058,7 +2058,7 @@ I (..\ecat\ecatcoe.h)(0x69DF3224)
 I (..\ecat\mailbox.h)(0x69DF3224)
 F (..\ecat\objdef.h)(0x69DF3224)()
 F (..\ecat\sdoserv.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\sdoserv.o --omf_browse .\objects\sdoserv.crf --depend .\objects\sdoserv.d)
-I (..\ecat\ecat_def.h)(0x69DF4D9F)
+I (..\ecat\ecat_def.h)(0x69DF5F97)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)

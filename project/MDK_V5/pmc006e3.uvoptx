@@ -135,7 +135,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>d</Name>
+          <Name></Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -154,7 +154,7 @@
           <Type>0</Type>
           <LineNumber>1445</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134246794</Address>
+          <Address>134246802</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -168,9 +168,9 @@
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>16</LineNumber>
+          <LineNumber>18</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134223212</Address>
+          <Address>134223228</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -179,14 +179,14 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>F:\椤圭洰\pmc006E3\e3new\project\src\at32_hw.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\pmc006e3\../src/at32_hw.c\16</Expression>
+          <Expression>\\pmc006e3\../src/at32_hw.c\18</Expression>
         </Bp>
         <Bp>
           <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>172</LineNumber>
+          <LineNumber>15</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134223144</Address>
+          <Address>134223208</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -195,39 +195,39 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>F:\椤圭洰\pmc006E3\e3new\project\src\at32_hw.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\pmc006e3\../src/at32_hw.c\172</Expression>
+          <Expression>\\pmc006e3\../src/at32_hw.c\15</Expression>
         </Bp>
         <Bp>
           <Number>3</Number>
           <Type>0</Type>
-          <LineNumber>157</LineNumber>
+          <LineNumber>159</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134231438</Address>
+          <Address>0</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\椤圭洰\pmc006E3\e3new\project\src\at32_hw.c</Filename>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\src\at32_hw.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\pmc006e3\../src/at32_hw.c\157</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>4</Number>
           <Type>0</Type>
-          <LineNumber>97</LineNumber>
+          <LineNumber>174</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134249128</Address>
+          <Address>0</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\椤圭洰\pmc006E3\e3new\project\src\wk_spi.c</Filename>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\src\at32_hw.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\pmc006e3\../src/wk_spi.c\97</Expression>
+          <Expression></Expression>
         </Bp>
       </Breakpoint>
       <MemoryWindow1>

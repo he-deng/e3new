@@ -2863,27 +2863,27 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       684         52          0          2          0      10522   at32_hw.o
+       684         52          0          2          0      10226   at32_hw.o
        868        106         38          0          0       7793   at32f435_437_crm.o
        214         14          0          0          0       2765   at32f435_437_exint.o
        236          0          0          0          0       4152   at32f435_437_gpio.o
-       120          6          0          0          0      68777   at32f435_437_int.o
+       120          6          0          0          0      68781   at32f435_437_int.o
        324         24          0          0          0      33323   at32f435_437_misc.o
        180          4          0          0          0        689   at32f435_437_scfg.o
        404          0          0          0          0       4042   at32f435_437_spi.o
        108          0          0          0          0       5197   at32f435_437_tmr.o
        616         44          0          0          0      33270   at32f435_437_wk_config.o
-         4          0          0          0          0       3048   bootmode.o
-      5306        186       1081       1512        416      50709   cia402appl.o
-      1084        164       1041        552          0      29487   coeappl.o
-      1732        328          0         49        136       9297   ecatappl.o
-       164         26          0          4          0       3011   ecatcoe.o
-       792         58          0         22          0       5117   ecatfoe.o
-      6046        712          0         75          0      18240   ecatslv.o
-       262         38          0          0          0       4051   foeappl.o
-      2030        308          0         33        104      12193   mailbox.o
-      3770        134         32         29        136      17891   objdef.o
-      3580        328        120         60         14      24316   sdoserv.o
+         4          0          0          0          0       3040   bootmode.o
+      5306        186       1081       1512        416      50453   cia402appl.o
+      1084        164       1041        552          0      29295   coeappl.o
+      1732        328          0         49        136       9121   ecatappl.o
+       164         26          0          4          0       2959   ecatcoe.o
+       792         58          0         22          0       4997   ecatfoe.o
+      6046        712          0         75          0      17916   ecatslv.o
+       262         38          0          0          0       4307   foeappl.o
+      2030        308          0         33        104      11929   mailbox.o
+      3770        134         32         29        136      17747   objdef.o
+      3580        328        120         60         14      24144   sdoserv.o
         36          8        524          0      61440        800   startup_at32f435_437.o
        384         42         22          4          0       2208   system_at32f435_437.o
        224          4          0          0          0        694   wk_exint.o
@@ -2893,7 +2893,7 @@ Image component sizes
         64          6          0          0          0        479   wk_tmr.o
 
     ----------------------------------------------------------------------
-     29764       2626       2892       2364      62248     354431   Object Totals
+     29764       2626       2892       2364      62248     352687   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         28          0          2         18          2          0   (incl. Padding)
 
@@ -2950,8 +2950,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     31292       2662       2892       2372      62252     336951   Grand Totals
-     31292       2662       2892        716      62252     336951   ELF Image Totals (compressed)
+     31292       2662       2892       2372      62252     335207   Grand Totals
+     31292       2662       2892        716      62252     335207   ELF Image Totals (compressed)
      31292       2662       2892        716          0          0   ROM Totals
 
 ==============================================================================

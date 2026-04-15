@@ -88,9 +88,11 @@ void CF11xx_SPI_EscRead( MEM_ADDR *pData, UINT16 Address, UINT16 Len )
          DISABLE_GLOBAL_INT;
 
          AddressingEsc( Address, ESC_RD );
+				 //WR_CMD(0xFF);
 	
          /*Each Byte will be read with a new addressing phase so the out data is 0xFF*/
          *pTmpData = WR_CMD(0xFF);
+
          
          pTmpData++;
          
