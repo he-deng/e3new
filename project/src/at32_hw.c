@@ -2,6 +2,9 @@
 
 UALEVENT         EscALEvent; 
 
+static void GetInterruptRegister(void);  
+static void ISR_GetInterruptRegister(void);
+
 
 uint8_t CF11XX_HW_Init(void)
 {
@@ -146,6 +149,8 @@ void HW_Init(void)
 {
     wk_system_clock_config();
 
+    wk_periph_clock_config();
+
     wk_timebase_init();
 
     wk_gpio_config();
@@ -155,6 +160,25 @@ void HW_Init(void)
    
 
     CF11XX_HW_Init();
+}
+
+void AddressingEsc( UINT16 Address, UINT8 Command )
+{
+    VARVOLATILE UBYTETOWORD tmp;
+    tmp.Word = ( Address << 3 ) | Command;
+    /* select the SPI */
+    SELECT_SPI;
+
+    /* send the first address/command byte to the ESC 
+       receive the first AL Event Byte*/
+    EscALEvent.Byte[0] = WR_CMD(tmp.Byte[1]);
+
+    EscALEvent.Byte[1] = WR_CMD(tmp.Byte[0]);
+}
+
+void HW_Release(void)
+{
+      
 }
 
 UINT16 HW_GetALEventRegister(void)
@@ -187,4 +211,18 @@ void HW_EscWriteIsr(MEM_ADDR *pData, UINT16 Address, UINT16 Len)
 void HW_EscReadIsr(MEM_ADDR *pData, UINT16 Address, UINT16 Len)
 {
     CF11xx_SPI_EscReadIsr(pData,Address,Len);
+}
+
+static void GetInterruptRegister(void)
+{
+    DISABLE_AL_EVENT_INT;
+    HW_EscReadWord(EscALEvent.Word, 0x220);
+    ENABLE_AL_EVENT_INT;
+}
+
+
+static void ISR_GetInterruptRegister(void)
+{
+    //HW_EscReadIsr((MEM_ADDR *)&EscALEvent.Word, 0x220, 2);
+    HW_EscReadWordIsr(EscALEvent.Word, 0x220);
 }

@@ -1452,9 +1452,14 @@ int main(void)
     /*Create basic mapping*/
     APPL_GenerateMapping(&nPdInputSize,&nPdOutputSize);
     bRunApplication = TRUE;
+    int led_count = 0;
     do
     {
         MainLoop();
+        if(led_count % 10000 == 0) {
+					gpio_bits_toggle(GPIOA, GPIO_PINS_0);
+				}
+				led_count ++;
 
     } while (bRunApplication == TRUE);
 

@@ -44,7 +44,7 @@ I (..\ecat\ecatappl.h)(0x69DF3224)
 I (..\ecat\ecat_def.h)(0x69DF4D9F)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\ecat\esc.h)(0x69DF3224)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
@@ -302,8 +302,8 @@ I (..\..\libraries\drivers\inc\at32f435_437_scfg.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
-F (..\src\at32_hw.c)(0x69DF4828)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\at32_hw.o --omf_browse .\objects\at32_hw.crf --depend .\objects\at32_hw.d)
-I (..\inc\at32_hw.h)(0x69DF4875)
+F (..\src\at32_hw.c)(0x69DF58C8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\at32_hw.o --omf_browse .\objects\at32_hw.crf --depend .\objects\at32_hw.d)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x69C20C86)
 I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x69C20C86)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
@@ -1533,7 +1533,7 @@ I (..\ecat\ecatfoe.h)(0x69DF3224)
 I (..\ecat\esc.h)(0x69DF3224)
 I (..\ecat\mailbox.h)(0x69DF3224)
 F (..\ecat\bootmode.h)(0x69DF3224)()
-F (..\ecat\cia402appl.c)(0x69DF3224)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\cia402appl.o --omf_browse .\objects\cia402appl.crf --depend .\objects\cia402appl.d)
+F (..\ecat\cia402appl.c)(0x69DF518B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\ecat-I.\RTE\_pmc006e3-ID:\Keil_v5\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DAT32F435CGT7 -D_RTE_ -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\cia402appl.o --omf_browse .\objects\cia402appl.crf --depend .\objects\cia402appl.d)
 I (..\ecat\ecat_def.h)(0x69DF4D9F)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
@@ -1578,7 +1578,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\applInterface.h)(0x69DF3224)
 I (..\ecat\esc.h)(0x69DF3224)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -1639,7 +1639,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -1699,7 +1699,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -1807,7 +1807,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -1863,7 +1863,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -1924,7 +1924,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -1986,7 +1986,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -2043,7 +2043,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)
@@ -2101,7 +2101,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x69C20C87)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x69C20C87)
 I (..\ecat\ecatslv.h)(0x69DF4AE5)
 I (..\ecat\esc.h)(0x69DF3224)
-I (..\inc\at32_hw.h)(0x69DF4875)
+I (..\inc\at32_hw.h)(0x69DF5085)
 I (..\inc\at32f435_437_wk_config.h)(0x69DF46CD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
 I (..\inc\wk_exint.h)(0x69C4A86A)

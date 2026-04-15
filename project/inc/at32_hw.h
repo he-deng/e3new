@@ -26,6 +26,9 @@ typedef union
 #define DISABLE_GLOBAL_INT         __disable_irq();
 #define ENABLE_GLOBAL_INT           __enable_irq();
 
+#define DISABLE_AL_EVENT_INT        DISABLE_GLOBAL_INT
+#define ENABLE_AL_EVENT_INT         ENABLE_GLOBAL_INT
+
 #define ESC_RD                      0x02
 #define ESC_WR                      0x04
 
@@ -35,7 +38,7 @@ typedef union
 
 #define    DISABLE_ESC_INT()        nvic_irq_disable(PDI_IRQ)
 
-#define    ENABLE_ESC_INT()         nvic_irq_enable(PDI_IRQ)
+#define    ENABLE_ESC_INT()         nvic_irq_enable(PDI_IRQ, 1, 0)
 
 #define HW_GetTimer()       		TMR7->cval
 #define HW_ClearTimer()             ((TMR7->cval)=0);
@@ -56,6 +59,8 @@ typedef union
 
 uint8_t CF11XX_HW_Init(void);
 void HW_Init(void);
+void  AddressingEsc( UINT16 Address, UINT8 Command );
+void   HW_Release(void);
 uint16_t HW_GetALEventRegister(void);
 uint16_t HW_GetALEventRegister_Isr(void);  
 void   HW_EscWrite( MEM_ADDR *pData, UINT16 Address, UINT16 Len );
